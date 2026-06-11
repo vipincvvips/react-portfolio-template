@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ 
  * @date 2025-05-10
  * @description This hook provides methods to interact with external APIs.
  */

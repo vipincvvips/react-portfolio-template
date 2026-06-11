@@ -1,5 +1,6 @@
 /**
- * @author Ryan Balieiro
+ My portfolio
+
  * @date 2025-05-10
  * @description This hook provides methods to manipulate the layout of the application.
  */
