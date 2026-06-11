@@ -8,8 +8,8 @@
 
     "preloaderSettings": {
         "enabled": true,
-        "title": "React <strong>Portfolio</strong>",
-        "subtitle": "by Ryan Balieiro",
+        "title": "<strong>Vipin CV</strong>",
+        "subtitle": "Turning Ideas into Exceptional Digital Experiences",
         "logoOffset": {
             "right": 14,
             "top": 2,
@@ -21,7 +21,7 @@
         "animatedCursorEnabled": true,
         "backgroundStyle": "animated",
         "defaultLanguageId": "en",
-        "defaultThemeId": "dark",
+        "defaultThemeId": "light",
         "fullscreenEnabled": true,
         "showSpinnerOnThemeChange": false
     },
@@ -33,19 +33,9 @@
             "flagUrl": "images/flags/en-us.png"
         },
         {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
-        },
-        {
             "name": "Français",
             "id": "fr",
             "flagUrl": "images/flags/fr.png"
-        },
-        {
-            "name": "한국어",
-            "id": "ko",
-            "flagUrl": "images/flags/ko.png"
         }
     ],
 
@@ -75,41 +65,6 @@
     ],
 
     "consoleMessageForDevelopers": {
-        "title": "\uD83D\uDDA5️ Hey there, fellow developer!",
-        "items": [
-            {
-                "description": "This is an open-source template based on the React framework.",
-                "list": [],
-                "listStyle": "none"
-            },
-            {
-                "description": "Other frameworks and plugins used in the project include:",
-                "list": [
-                    "Bootstrap 5: https://getbootstrap.com/",
-                    "Smooth Scrollbar: https://tinyurl.com/4yhm4n4a",
-                    "Swiper: https://swiperjs.com/",
-                    "EmailJS: https://www.emailjs.com/",
-                    "Font Awesome: https://fontawesome.com/",
-                    "PrimeIcons: https://primefaces.org/"
-                ],
-                "listStyle": "bulleted"
-            },
-            {
-                "description": "Clone it and customize it for your own portfolio:",
-                "list": [
-                    "https://github.com/ryanbalieiro/react-portfolio-template"
-                ],
-                "listStyle": "none"
-            },
-            {
-                "description": "Developer Info:",
-                "list": [
-                    "GitHub: https://github.com/ryanbalieiro",
-                    "Website: https://ryanbalieiro.com"
-                ],
-                "listStyle": "bulleted"
-            }
-        ]
     },
 
     "imagesToCache": []

@@ -33,9 +33,9 @@
             "id": 1,
             "component": "ArticleContactForm",
             "settings": {
-                "email_js_public_key": "tzObcsmOwHvPy6Rhp",
-                "email_js_service_id": "service_4h8g7vb",
-                "email_js_template_id": "template_react"
+                "email_js_public_key": "0vU_50tj0eqjolxtVG",
+                "email_js_service_id": "service_ebxoxnr",
+                "email_js_template_id": "template_gmziwss"
             },
             "locales": {
                 "en": {
@@ -84,8 +84,8 @@
                     "id": 1,
                     "faIcon": "fa-solid fa-phone",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "+1 (123) 456-7890",
-                    "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
+                    "label": "+91 9633398533",
+                    "link": {"href": "tel:919633398533", "tooltipString": "call_me"},
                     "copyToClipboardButton": true,
                     "locales": {
                         "en": {"title": "Phone"},
@@ -98,8 +98,8 @@
                     "id":2,
                     "faIcon": "fa-solid fa-envelope",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "mark.choi@email.com",
-                    "link": {"href": "mailto:mark.choi@email.com", "tooltipString": "email_me"},
+                    "label": "vipincv41@gmail.com",
+                    "link": {"href": "mailto:vipincv41@gmail.com", "tooltipString": "email_me"},
                     "copyToClipboardButton": true,
                     "locales": {
                         "en": {"title": "E-mail"},
@@ -110,48 +110,25 @@
                     "id": 3,
                     "faIcon": "fa-brands fa-linkedin",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
+                    "label": "@vipin-cv",
+                    "link": {"href": "https://www.linkedin.com/in/vipin-cv/", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "LinkedIn"},
                         "ko": {"title": "링크드인"}
                     }
                 },
-                {
-                    "id": 4,
-                    "faIcon": "fa-brands fa-facebook",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "Mark Choi",
-                    "link": {"href": "https://facebook.com/profiles/mark.choi.855/default", "tooltipString": "open_website"},
-                    "copyToClipboardButton": false,
-                    "locales": {
-                        "en": {"title": "Facebook"},
-                        "ko": {"title": "페이스북"}
-                    }
-                },
+                
                 {
                     "id": 5,
                     "faIcon": "fa-brands fa-instagram",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@codingmark",
-                    "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
+                    "label": "@vipincv",
+                    "link": {"href": "https://www.instagram.com/vipincv/", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "Instagram"},
                         "ko": {"title": "인스타그램"}
-                    }
-                },
-                {
-                    "id": 6,
-                    "faIcon": "fa-brands fa-tiktok",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://tiktok.com/@markchoi", "tooltipString": "open_website"},
-                    "copyToClipboardButton": false,
-                    "locales": {
-                        "en": { "title": "TikTok" },
-                        "ko": { "title": "틱톡" }
                     }
                 }
             ]

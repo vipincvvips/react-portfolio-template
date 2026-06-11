@@ -71,7 +71,8 @@ function NavProfileCard({ profile, expanded }) {
             <div className={`nav-profile-card-info`}>
                 <h1 className={`nav-profile-card-name ${navProfileCardNameClass}`}>
                     <span dangerouslySetInnerHTML={{__html: stylizedName}}/>
-                    {namePronunciationButtonVisible && (
+                    {/* Audio button disabled */}
+                    {false && (
                         <AudioButton url={namePronunciationAudioUrl}
                                      tooltip={namePronunciationIpa}
                                      size={AudioButton.Sizes.DYNAMIC_FOR_NAV_TITLE}/>

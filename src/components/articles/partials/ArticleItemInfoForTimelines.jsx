@@ -45,6 +45,7 @@ function ArticleItemInfoForTimelinesHeader({ itemWrapper, className = "", dateIn
         itemWrapper.shortLocation :
         itemWrapper.fullLocation
 
+    const hasDate = !!itemWrapper?.dateStart
     const propListItems = []
 
     // Case 1 - The date is being displayed as a badge (no need to display it here).
@@ -68,11 +69,13 @@ function ArticleItemInfoForTimelinesHeader({ itemWrapper, className = "", dateIn
 
     // Case 2 - Must display date inside the prop list.
     else {
-        propListItems.push({
-            faIcon: `fa-regular fa-clock`,
-            type: dateInterval ? PropListItem.Types.INTERVAL : PropListItem.Types.SINGLE,
-            value: dateInterval ? [itemWrapper.dateStartDisplay, itemWrapper.dateEndDisplay] : [itemWrapper.dateStartDisplay]
-        })
+        if(hasDate) {
+            propListItems.push({
+                faIcon: `fa-regular fa-clock`,
+                type: dateInterval ? PropListItem.Types.INTERVAL : PropListItem.Types.SINGLE,
+                value: dateInterval ? [itemWrapper.dateStartDisplay, itemWrapper.dateEndDisplay] : [itemWrapper.dateStartDisplay]
+            })
+        }
 
         if(institution || location) {
             propListItems.push({
@@ -89,7 +92,7 @@ function ArticleItemInfoForTimelinesHeader({ itemWrapper, className = "", dateIn
                 <h5 className={``}
                     dangerouslySetInnerHTML={{__html: itemWrapper.locales.title || itemWrapper.placeholder}}/>
 
-                {shouldShowDateBadge && (
+                {shouldShowDateBadge && itemWrapper.dateStart && (
                     <DateBadge dateStart={itemWrapper.dateStartDisplay}
                                dateEnd={dateInterval ? itemWrapper.dateEndDisplay : null}
                                variant={DateBadge.Variants.DEFAULT}

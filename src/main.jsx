@@ -68,8 +68,6 @@ const AppEssentialsWrapper = ({children}) => {
                 utils.log.info(consoleMessageForDevelopers.title, consoleMessageForDevelopers.items, primaryColor)
             }
         })
-
-        api.analytics.reportVisit().then(() => {})
     }, [])
 
     const _applyDeveloperSettings = (settings) => {

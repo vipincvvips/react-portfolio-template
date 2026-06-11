@@ -92,21 +92,5 @@ const handlers = {
 }
 
 const analytics = {
-    /**
-     * @description This method can be used to report a visit to an external analytics service.
-     * Here, you can integrate Google Analytics, Mixpanel, or your own custom analytics implementation.
-     * @returns {Promise<void>}
-     */
-    reportVisit: async() => {
-        await fetch("https://admin.ryanbalieiro.com/api/analytics/mock", {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({
-                params: {
-                    url: utils.url.getRootLocation(),
-                    template_id: "react-portfolio"
-                }
-            })
-        })
-    }
+   
 }
